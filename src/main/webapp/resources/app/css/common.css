@@ -1,0 +1,89 @@
+﻿.common-tc{
+    text-align:center!important
+}
+
+/**
+ * 定义分页
+ */
+.common-page{
+    margin:10px 15px;
+    line-height:26px;
+    /*去除子类因内联多出3个像素误差*/
+    font-size:0;
+    text-align:left!important;
+}
+.common-page{
+    font-size:12px;
+}
+.common-page ul{
+    float:right;
+    margin:0;
+    padding:0
+}
+.common-page li{
+    display:inline-block;
+    font-size:12px;
+    margin:0 3px;
+    padding:0
+}
+.common-page li:last-child{
+    margin-right:0
+}
+.common-page li a,
+.common-page li .current{
+    box-shadow:1px 1px 2px rgba(0,0,0,.08);
+}
+.common-page li a,
+.common-page li span{
+    padding:0 10px;
+    display:inline-block;
+    line-height:26px;
+    height:26px;
+    border:1px solid #dfdfdf;
+    border-radius:2px;
+    color:#444
+}
+.common-page li a:hover{
+    background-color:#f6f6f6;
+    color:#111;
+}
+.common-page li a:active,
+.common-page li .current:active{
+    box-shadow:0 1px 2px rgba(0,0,0,.1) inset;
+}
+.common-page li.disabled span{
+    padding:0 5px;
+    border-color:#fff;
+}
+.common-page li .current{
+    background-color:#45c8dc;
+    border-color:#45c8dc;
+    color:#fff
+}
+
+
+/**
+ *定义tag
+ */
+.common-tag{
+    margin:0 1px;
+    display:inline-block;
+    border:1px solid #c9c9c9;
+    overflow:hidden;
+    background-color:#fff;
+    border-radius:2px;
+    padding:0 7px;
+    white-space:nowrap;
+    color:#333;
+    cursor:pointer;
+    font-size:12px;
+    line-height:20px;
+    opacity:0.9;
+    text-align:center;
+    vertical-align:middle
+}
+a.common-tag:hover,
+.common-tag:hover{opacity:0.8}
+.common-tag:active{opacity:1}
+.common-tag-warm{color:#ffa133;border-color:#ffa133}
+.common-tag-ok{color:#7db95f;border-color:#7db95f}
