@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.home</groupId>
-  <artifactId>home-income-and-expense-system</artifactId>
+  <artifactId>HMS</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>home-income-and-expense-system Maven Webapp</name>
+  <name>HMS Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>

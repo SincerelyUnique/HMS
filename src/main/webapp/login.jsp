@@ -1,12 +1,12 @@
-<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<%@ page contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <html>
 <head>
     <link rel="stylesheet" href="<%=request.getContextPath()%>/resources/app/css/lrtk.css">
     <link href="<%=request.getContextPath()%>/resources/app/images/home.ico" rel="shortcut icon" />
 </head>
-<body>
+<body style="background-color: #34b125">
 <div id="login">
-    <div class="wrapper">
+    <div class="wrapper" style="background-color: #37A3CF">
         <div class="login">
             <form action="<%=request.getContextPath()%>/login" method="post" class="container offset1 loginform">
 
