@@ -17,7 +17,7 @@
 <body class="layui-layout-body">
 <div class="layui-layout layui-layout-admin">
     <div class="layui-header" style="background-color: #37A3CF">
-        <div class="layui-logo" style="color: purple">家庭管理系统</div>
+        <div class="layui-logo" style="color: white">家庭管理系统</div>
         <!-- 头部区域（可配合layui已有的水平导航） -->
         <ul class="layui-nav layui-layout-left">
             <%--<li class="layui-nav-item"><a href="javascript:void(0);">财务管理</a></li>--%>

@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="<%=request.getContextPath()%>/resources/app/css/lrtk.css">
     <link href="<%=request.getContextPath()%>/resources/app/images/home.ico" rel="shortcut icon" />
 </head>
-<body style="background-color: #34b125">
+<body style="background-color: white">
 <div id="login">
     <div class="wrapper" style="background-color: #37A3CF">
         <div class="login">
