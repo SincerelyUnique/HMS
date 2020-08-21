@@ -1,6 +1,8 @@
 ## 管理后台
 
-> 一个家庭管理系统的雏形，包括家庭个人账户管理、收支管理、借贷管理、人员管理及权限管理
+> 一个小系统的雏形，sprint mvc + maven + layui
+
+**1.引入一些Jar包**
 
 简单的SSM后台框架
 
@@ -11,3 +13,20 @@
 - ehcache
 - mybatis
 - mysql
+
+**2.执行resource下sql目录的sql**
+
+在表里添加用户
+
+![添加用户](doc/db.jpg)
+
+**2.IDEA 配置**
+
+![配置tomcat server](doc/setting1.jpg)
+
+![配置deployment，以war包形式运行](doc/setting2.jpg)
+
+**3.系统UI**
+![登录页面](doc/login.jpg)
+
+![主页面](doc/page.jpg)
